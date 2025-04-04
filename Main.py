@@ -8,7 +8,7 @@ from aiohttp import web
 
 # Считываем токен бота из переменных окружения
 TOKEN = os.getenv('7904632196:AAGkTwBBfZlC4lG0n-bugC07srivYbxSSXA')
-RAILWAY_STATIC_URL = os.getenv('https://railway.com/dashboard')  # Автоматически создается Railway
+RAILWAY_STATIC_URL = os.getenv('RAILWAY_STATIC_URL')  # Автоматически создается Railway
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
