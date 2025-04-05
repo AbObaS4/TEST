@@ -7,7 +7,6 @@ from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_applicati
 from aiohttp import web
 
 # Считываем токен бота из переменных окружения
-TOKEN = os.getenv('7904632196:AAGkTwBBfZlC4lG0n-bugC07srivYbxSSXA')
 RAILWAY_STATIC_URL = os.getenv('RAILWAY_STATIC_URL')  # Автоматически создается Railway
 
 bot = Bot(token=TOKEN)
